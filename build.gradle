@@ -1,0 +1,18 @@
+plugins {
+    id 'maven'
+    id 'java-library'
+    id 'com.github.ben-manes.versions' version '0.27.0'
+    id 'com.github.sherter.google-java-format' version '0.8'
+}
+
+group 'com.github.tomokinakamaru'
+
+version '0.1.0'
+
+sourceCompatibility = 1.8
+
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
